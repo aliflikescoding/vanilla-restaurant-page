@@ -1,0 +1,26 @@
+{
+  "name": "restaurant_page_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliflikescoding/restaurant_page_project.git"
+  },
+  "keywords": [],
+  "author": "aliflikescoding <aliflikescoding@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliflikescoding/restaurant_page_project/issues"
+  },
+  "homepage": "https://github.com/aliflikescoding/restaurant_page_project#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
