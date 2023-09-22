@@ -250,4 +250,166 @@ textarea {
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--text);
+  background-color: var(--background);
+}
+
+#content {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.logo-icon {
+  font-size: 2.2rem;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.logo-area:hover {
+  color: var(--accent);
+}
+
+.logo-area > * {
+  margin: 5px;
+}
+
+nav {
+  margin: 15px;
+}
+
+nav * {
+  margin: 0 15px;
+}
+
+.button-nav {
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.button-nav:hover {
+  color: var(--accent);
+}
+
+.logo {
+  letter-spacing: 2px;
+}
+
+.underline-animation {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.underline-animation:hover::after,
+.active::after {
+  transform: scaleX(1);
+  background-color: var(--accent);
+}
+
+.active {
+  color: var(--accent);
+}
+
+/* main styling */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer styling */
+footer {
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+}
+
+footer > * {
+  margin: 15px;
+}
+
+.git-hub-logo {
+  font-size: 2.2rem;
+}
+
+.git-hub-area > * {
+  margin: 0 5px;
+}
+
+.git-hub-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+/* home styling */
+
+.home {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* image area */
+
+.image-area {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image1 {
+  transform: rotate(-45deg);
+  z-index: 1;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+}
+
+.image2 {
+  z-index: 1;
+  width: 300px;
+  height: 750px;
+}
+
+/* text area */
+.text-area {
+  z-index: 2;
+  position: absolute;
+  font-size: 2rem;
+
+  color: var(--primary);
 }
