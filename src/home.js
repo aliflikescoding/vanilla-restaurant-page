@@ -2,10 +2,12 @@ function createHome() {
   const home = document.createElement('div');
   home.classList.add('home');
 
+    /* image area */
+
   const imageArea = document.createElement('div');
   imageArea.classList.add('image-area');
   home.appendChild(imageArea);
-  
+
   const image1 = document.createElement('img');
   image1.classList.add('image1');
   image1.src = 'images/ice.png';
@@ -23,6 +25,10 @@ function createHome() {
   title.textContent = "I love IceCream"
 
   textArea.appendChild(title);
+
+  /* about us area */
+  
+
 
   return home;
 }
