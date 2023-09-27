@@ -2,7 +2,12 @@ function createHome() {
   const home = document.createElement('div');
   home.classList.add('home');
 
-    /* image area */
+  /* <i class="fa-solid fa-arrow-down"></i> */
+  const arrow = document.createElement('i');
+  arrow.classList.add('fa-solid', 'fa-arrow-down', 'arrow-down');
+  home.appendChild(arrow);
+
+  /* image area */
 
   const imageArea = document.createElement('div');
   imageArea.classList.add('image-area');
@@ -22,15 +27,29 @@ function createHome() {
   home.appendChild(textArea);
 
   const title = document.createElement('h1');
-  title.textContent = "I love IceCream"
+  title.textContent = "I love IceCream\n do you?";
 
   textArea.appendChild(title);
 
   /* about us area */
-  
 
+  home.appendChild(generateAboutUs());
 
   return home;
+}
+
+function generateAboutUs() {
+  const aboutUs = document.createElement('div');
+  aboutUs.classList.add('about-us');
+  
+  const title = document.createElement('h1');
+  title.textContent = "Who are we?";
+  aboutUs.appendChild(title);
+  const text = document.createElement('p');
+  text.textContent = "We are an environmentally friendly dairy based Ice Cream company based in Spring Field, Arizona.\n We are passionate about Ice Cream and Ensure only the best for our products.\n We also ensure enough pay for our employees\n lorem ipsum si amet. donde esta el biblio teka, para , saya suka es krim, ik houdt van ice cream, watashi ice cream ga suki desu";
+  aboutUs.appendChild(text);
+
+  return aboutUs;
 }
 
 function loadHome() {

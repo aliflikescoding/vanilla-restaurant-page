@@ -378,7 +378,16 @@ footer > * {
 .home {
   position: relative;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
+}
+
+.arrow-down {
+  position: absolute;
+  font-size: 4rem;
+  z-index: 5;
+  bottom: 35%;
 }
 
 /* image area */
@@ -410,6 +419,12 @@ footer > * {
   z-index: 2;
   position: absolute;
   font-size: 2rem;
-
   color: var(--primary);
+}
+
+/* about us area */
+.about-us {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 50px 20%;
 }
