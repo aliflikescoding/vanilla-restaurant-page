@@ -336,6 +336,12 @@ nav * {
 
 .active {
   color: var(--accent);
+  opacity: 1;
+}
+
+.not-active {
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* main styling */

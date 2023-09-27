@@ -1,5 +1,6 @@
 import './style.css'
 import loadHome from "./home";
+import loadMenu from "./menu";
 
 function createHeader() {
   const header = document.createElement('header');
