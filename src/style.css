@@ -434,3 +434,28 @@ footer > * {
   font-size: 1.5rem;
   margin: 50px 20%;
 }
+
+/* menu styling */
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--secondary);
+  border-radius: 15px;
+  margin: 25px;
+}
+
+.card > * {
+  margin: 15px;
+}
+
+.card-area-two > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
