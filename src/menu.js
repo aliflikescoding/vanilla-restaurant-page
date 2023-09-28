@@ -11,7 +11,7 @@ function createMenu() {
 
 function createCard(name, desc, img_path) {
     const card = document.createElement('div');
-    card.classList.add('card');
+    card.classList.add('card', 'fade-in-bottom');
 
     /* area 1 */
     const area1 = document.createElement('div');

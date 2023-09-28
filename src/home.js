@@ -4,13 +4,13 @@ function createHome() {
 
   /* <i class="fa-solid fa-arrow-down"></i> */
   const arrow = document.createElement('i');
-  arrow.classList.add('fa-solid', 'fa-arrow-down', 'arrow-down');
+  arrow.classList.add('fa-solid', 'fa-arrow-down', 'arrow-down', 'up-down-animation');
   home.appendChild(arrow);
 
   /* image area */
 
   const imageArea = document.createElement('div');
-  imageArea.classList.add('image-area');
+  imageArea.classList.add('image-area', 'fade-in-bottom');
   home.appendChild(imageArea);
 
   const image1 = document.createElement('img');
@@ -28,6 +28,7 @@ function createHome() {
 
   const title = document.createElement('h1');
   title.textContent = "I love IceCream\n do you?";
+  title.classList.add('appear-from-background');
 
   textArea.appendChild(title);
 
@@ -40,7 +41,7 @@ function createHome() {
 
 function generateAboutUs() {
   const aboutUs = document.createElement('div');
-  aboutUs.classList.add('about-us');
+  aboutUs.classList.add('about-us', 'fade-in-bottom');
   
   const title = document.createElement('h1');
   title.textContent = "Who are we?";

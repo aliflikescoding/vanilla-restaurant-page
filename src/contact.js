@@ -1,6 +1,6 @@
 function createContact() {
     const contact = document.createElement('div');
-    contact.classList.add('contact');
+    contact.classList.add('contact', 'fade-in-bottom');
 
     /* area1 */
     const area1 = document.createElement('div');
