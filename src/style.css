@@ -459,3 +459,36 @@ footer > * {
   height: 300px;
   border-radius: 50%;
 }
+
+/* contact styling */
+.ct-area-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary);
+  border-radius: 15px;
+  margin: 80px 0;
+}
+
+.ct-area-one > * {
+  margin: 25px;
+}
+
+/* animations and animation classes */
+.fade-in-bottom {
+  opacity: 0;
+  transform: translateY(100%);
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
