@@ -33,13 +33,7 @@ npm i / install
 
 ### 🚀 Starting the App 
 
-#### first
-
-```shell
- webpack --config webpack.config.js
-```
-
-#### then if you want to watch the changes that you've made
+#### to start it
 
 ```shell
  npx webpack --watch
