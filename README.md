@@ -23,7 +23,24 @@ In this project we used vast amount of modern technologies such as:
 
 ### 📋 Requirements
 
-something to go live in the html in
+[Node.js][node] and [NPM][npm]
 
+### ⚙️ Packages Installation
+
+```shell
+npm i / install
+```
+
+### 🚀 Starting the App 
+
+```shell
+npm run dev
+```
+
+### 🔗 Cloning the repository
+
+```shell
+git clone https://github.com/aliflikescoding/vanilla-restaurant-page.git
+```
 
 
