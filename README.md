@@ -1,17 +1,29 @@
+<p align="center">
+  <h1 align="center">Vanilla restaurant page Project in Vanilla HTML, Javascript, and CSS</h1>
+</p>
 
-# Restaurant Page
+## Output
 
-An assigned project from TOP (the odin project) course. You are tasked to build a restaurant page with tabbed browsing using the webpack package manager.
+Visit [The Live Page](https://aliflikescoding.github.io/vanilla-calculator/) to view the details
+
+## Description
+
+An assigned project from TOP (the odin project) course. You are tasked to build a restaurant page with tabbed browsing using the webpack package manager. In this project I learned basic webpack, dom manipulation, css animations, javascript tabbed browing, exporting/importing "modules"
+
+---
+## 🖥️ Technologies
+
+In this project we used vast amount of modern technologies such as:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  
+## 📖 Additional information
+
+### 📋 Requirements
+
+something to go live in the html in
 
 
 
-## Live preview
-
-[Live Demo](https://aliflikescoding.github.io/restaurant_page_project/)
-## What I learned from this project
-what I've learned from doing this project are:
-- basic webpack
-- dom manipulation
-- css animations
-- javascript tabbed browing
-- exporting/importing "modules"
