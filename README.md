@@ -33,8 +33,16 @@ npm i / install
 
 ### 🚀 Starting the App 
 
+#### first
+
 ```shell
-npm run dev
+ webpack --config webpack.config.js
+```
+
+#### then if you want to watch the changes that you've made
+
+```shell
+ npx webpack --watch
 ```
 
 ### 🔗 Cloning the repository
